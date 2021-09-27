@@ -1,0 +1,384 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#intro{
+    background-image: url(./image/3ccaea892b400543b2c4319f0019b64f.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    height:600px
+} 
+.container-item{
+    padding: 100px;
+    text-align: center;
+    color: honeydew;
+}
+h1{
+font-size: 100px;
+}
+h5{
+    font-size: 20px;
+    color: yellow;
+}.container-item .button1{
+    color:black;
+    background-color: goldenrod;
+    border-color: goldenrod;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
+    margin-right:350px;
+}
+.container-item .button2{
+    color:black;
+    background-color: white;
+    border-color: white;
+    margin-top: 150px;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
+}
+#question{
+    background-color: goldenrod;
+    height: 300px;
+    color:black;
+}
+.question-item{
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.question-item .button3{
+    background-color: black;
+    color: blanchedalmond;
+    border-color: black;
+    height: 40px;
+    width: 180px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 50px;
+}
+.question-item .button4{
+    background-color: goldenrod;
+    border-color: black;
+    color:black;
+    height: 40px;
+    width: 180px;
+    font-size: 15px;
+    text-align: center;
+}
+.question-item1{
+    float:right;
+    margin-right: 100px;
+}
+.question-item span{
+    text-align: center;
+    font-size: 20px;
+
+}
+.question-item strong{
+    font-size: 35px;
+}
+#field{
+    height: 800px;
+}
+#field .card{
+    border: none;
+    margin-top: 60px;
+}
+#field a{
+    text-decoration: none;
+    color:gold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#field .card-img{
+    height:300px;
+    width:300px;
+}
+.second-row{
+    margin-top: 50px;
+}
+.card-title{
+    color:black;
+}
+#story{
+    height: 1200px;
+    background-color: lightgray;
+    margin-top: 400px;
+}
+.story-item{
+    text-align: center;
+    padding-top: 80px;
+}
+.story-item h2{
+    font-size: 50px;
+    font-weight: 2000px;
+}
+.story-item span{
+    font-size: 25px;
+}
+.story-item p{
+    font-size: 20px;
+}
+.second ul li{
+    margin-bottom: 50px;
+}
+.story-image{
+    height:700px;
+    width: 500px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.item h5{
+    color: black;
+}
+.item{
+    margin-top: 100px;
+}
+.second-item ul li{
+    margin-bottom: 80px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#project{   
+background-image: linear-gradient(
+    0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(./image/projects\ image3.jpeg);
+        background-position: 50% 50%;
+    height: 700px;
+}
+.project-item{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+.project-item h2{
+    font-size: 70px;
+}
+.project-item h5{
+    color: white;
+}
+ .image{
+    height: 300px;
+    width:250px;
+    margin-top: 100px;
+
+}
+.col-md-3{
+    width: calc(100%/4);
+}
+[class *="col-"]{
+    float:left;
+}
+.container{
+    margin:0 auto;
+}
+#picture{
+    height:300px;
+    background-color: lightgray;
+}
+.images{
+    height:150px;
+    width: 150px;
+    margin-top: 50px;
+}
+#team{
+    height:400px;
+}
+.team-item1{
+    text-align: center;
+    margin-top: 70px;
+}
+.team-item1 h2{
+ font-size: 50px;
+}
+.team-item1 h6{
+    font-size: 20px;
+}
+.card{
+    border: hidden;
+    margin-top: 50px;
+}
+.card-body{
+    text-align: center;
+    background-color: lightgrey;
+}
+#statics{
+    height:350px;
+    background-color: gold;
+    margin-top: 350px;
+}
+.item{
+   margin-top: 100px;
+   padding-left: 80px;
+   text-align: center;
+   color:black;
+}
+.number{
+    font-size: 50px;
+    font-weight: 4000px;
+    font-style: bold;
+}
+#footer1{
+    background-color: black;
+    color:white;
+    height:300px;
+}
+#footer1 i{
+    font-size: 100px;
+    padding-top: 100px;
+}
+#footer2{
+    background-color:grey;
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 15px;
+}
+#footer2 a{
+    color:lightpink;
+}
+.type-icon{
+  margin-top: 130px;
+}
+#quality{background-image: linear-gradient(
+    0deg, rgba(255,206,62,0.6), rgba(255,206,62,0.6)), url(./image/quality\ image.jpeg);
+        background-position: 50% 50%;
+    height:600px;
+    color:white;
+}
+.quality-picture{
+    padding-top: 100px;
+    text-align: center;
+}
+.quality-picture h3{
+   font-size: 50px;
+}
+.quality-image2{
+    height: 86px;
+    position: relative;
+    margin: 20px auto 30px;
+}
+.quality-picture p{
+    font-size: 15px;
+}
+.news-item1{
+    text-align: center;
+    padding-top: 100px;
+}
+#news{
+    height:900px;
+}
+.news-item1 h3{
+font-size: 40px;
+}
+.news-item1 p{
+    font-size: 20px;
+    color: black;
+}
+#news .card{
+    border: none;
+    margin-top: 60px;
+    background-color:white;
+}
+#news a{
+    text-decoration: none;
+    color:gold;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+#news .card-img{
+    height:350px;
+    width:300px;
+}
+    #news .card-body{
+     background-color: white;
+    }
+    #news h5{
+        text-align: left;
+        margin-top: 40px;
+    }
+    .addition{
+        margin-top: 30px;
+    }
+    .u-section-11 .u-container-layout-5 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .u-container-layout {
+        position: relative;
+        flex: 1;
+        max-width: 100%;
+    }
+    .yellow-part {
+        color: #111111;
+      background-color: goldenrod;
+    padding-left: 20px;}
+      
+      .time{
+    width: 82px;
+    min-height:82px;
+    position: absolute;
+    height:100px;
+    margin-top:210px;
+}
+.picture{
+    position: relative;
+}
+#testimonials{
+    height:1000px;
+    background-color: lightgray;
+}
+.testimonials-item1{
+    text-align: center;
+    padding-top: 100px;
+}
+.testimonials-item1 h2{
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.testimonials-item1 p{
+    font-size:20px ;
+}
+.testimonials-item2{
+    border: 1px solid gray;
+    background-color:white;
+    padding:30px;
+    border:none;
+   
+}
+.testimonials-border{
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    
+}
+.type{
+    padding-top: 30px;
+}
+.testimonials-picture{
+    margin-bottom: 300px;
+    width: 82px;
+    margin-left: 76px;
+    height: 81px;
+    position: relative;
+    object-position: 100% 50%;
+    background-position: 100% 50%;
+    margin: -28px auto 0 87px;
+    overflow: hidden;
+}
+.testimonials-border{
+    position: relative;  
+    border: 3px solid gray;
+    border:hidden;
+    height:400px;
+    margin-top: 90px;
+
+}
+.testimonials-border h5{
+    color:black;
+} 
